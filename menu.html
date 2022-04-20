@@ -9,6 +9,7 @@ body {
 }
 
 .mobile-container {
+  max-width: 480px;
   margin: auto;
   background-color: #555;
   height: 500px;
@@ -26,19 +27,15 @@ body {
 }
 
 .topnav a {
+  float: left;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
 }
 
 .topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+  float: right;
 }
 
 .topnav a:hover {
@@ -90,16 +87,16 @@ button:hover, a:hover {
 </head>
 <body>
 
-<!-- Simulate a smartphone / tablet -->
+<!-- Simulate a smartphone / tablet look -->
 <div class="mobile-container">
 
 <!-- Top Navigation Menu -->
 <div class="topnav">
   <a href="#home" class="active">Logo</a>
   <div id="myLinks">
-    <a href="#news">Mes Projets</a>
-    <a href="#contact">Ma Clinique</a>
-    <a href="#about">À propos</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
