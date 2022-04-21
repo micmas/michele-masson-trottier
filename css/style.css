@@ -5,19 +5,19 @@ body {
 }
 
 .header {
-  background-color: #f1f1f1;
+  background-color: #238ae6;
   padding: 30px;
   text-align: center;
 }
 
 #navbar {
-  overflow: auto;
-  white-space: nowrap;
+  overflow: hidden;
   background-color: #333;
 }
 
 #navbar a {
-  display: inline-block;
+  float: left;
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -38,7 +38,7 @@ body {
 .content {
   padding: 16px;
   text-align: center;
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto; 
   margin-right: auto;
 }
@@ -51,6 +51,10 @@ body {
 
 .sticky + .content {
   padding-top: 60px;
+}
+
+.navbar-right {
+  float: right;
 }
 
 img {
@@ -66,4 +70,36 @@ a {
 .title {
   color: grey;
   font-size: 18px;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.shortbio {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+  #navbar {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  #navbar a {
+    float: none;
+    display: inline-block;
+  }
+
+  .navbar-right {
+    float: none;
+    display: inline-block;
+  }
 }
