@@ -3,56 +3,25 @@
 <head>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <div class="header">
-    <img src="img/logo.png" alt="Logo">
-  </div>
-  
-  <div id="navbar">
-    <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Moi</a>
-    <a href="clinique.html"><i class="fa fa-fw fa-hospital-o"></i> Clinique</a>
-    <a href="projects.html"><i class="fa fa-fw fa-briefcase"></i> Projets</a>
-    <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-    <div class="navbar-right">
-      <a href="javascript:void(0);"><i class="fa fa-search"></i> Rechercher</a>
-      <a href="javascript:void(0);"><i class="fa fa-info-circle"></i> À propos</a>
-    </div>
+  <div class="topnav">
+    <a class="active" href="index.html">Moi</a>
+    <a href="clinique.html">Clinique</a>
+    <a href="projets.html">Projets</a>
+    <a href="contact.html">Contact</a>
   </div>
   
   <div class="content">
-    <img class="img-michele" src="img/michele.jpg" alt="Michèle Masson-Trottier" width="300" height="300">
+    <div>
+      <img src="img/michele.jpg" width="300px" height="375px" style="margin: 25px;">
+    </div>
     <h1>Michèle Masson-Trottier</h1>
     <p class="title">Orthophoniste, MPO, O(c)</p>
-    <div class="card">
-      <div class="shortbio">
-        <p>Orthophoniste diplômée de l’Université de Montréal en 2015 et étudiante au doctorat en sciences de l’orthophonie. Mes principaux intérêts de recherche portent sur la réadaptation des troubles de la communication auprès des personnes vivant avec une aphasie suite à un AVC ou vivant avec une maladie neurodégénérative. Plus précisément, je m’intéresse à l'efficacité des interventions en orthophonie, à la neuroplasticité induite par les thérapies suite à un AVC, ainsi qu'à maintenir la communication et la qualité de vie chez les personnes vivant avec une maladie neurodégénérative et leurs proches.</p>
-      </div>
-    </div>
-    <div style="margin: 24px 0;">
-      <a href="https://twitter.com/mich_de_pain"><i class="fa fa-twitter"></i></a>  
-      <a href="https://www.linkedin.com/in/mich%C3%A8le-masson-trottier-b5063964/"><i class="fa fa-linkedin"></i></a>
-      <a href="https://www.researchgate.net/profile/Michele-Masson-Trottier"><i class="fa fa-graduation-cap"></i></a>   
-      <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=z_c_OjsAAAAJ"><i class="fa fa-google"></i></a> 
-    </div>
+    <p>Orthophoniste diplômée de l’Université de Montréal en 2015 et étudiante au doctorat en sciences de l’orthophonie. Mes principaux intérêts de recherche portent sur la réadaptation des troubles de la communication auprès des personnes vivant avec une aphasie suite à un AVC ou vivant avec une maladie neurodégénérative. Plus précisément, je m’intéresse à l'efficacité des interventions en orthophonie, à la neuroplasticité induite par les thérapies suite à un AVC, ainsi qu'à maintenir la communication et la qualité de vie chez les personnes vivant avec une maladie neurodégénérative et leurs proches.</p>
   </div>
   
-  <script>
-  window.onscroll = function() {myFunction()};
-  
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  </script>
 </body>
 
 </html>

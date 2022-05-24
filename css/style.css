@@ -1,23 +1,15 @@
 body {
   margin: 0;
-  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-  background-color: #238ae6;
-  padding: 10px;
-  text-align: center;
-}
-
-#navbar {
+.topnav {
   overflow: hidden;
   background-color: #333;
 }
 
-#navbar a {
+.topnav a {
   float: left;
-  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -25,81 +17,22 @@ body {
   font-size: 17px;
 }
 
-#navbar a:hover {
+.topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-#navbar a.active {
+.topnav a.active {
   background-color: #04AA6D;
   color: white;
 }
 
 .content {
-  padding: 16px;
   text-align: center;
-  max-width: 900px;
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
-.navbar-right {
-  float: right;
-}
-
-.img-michele {
-  border-radius: 50%;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
+  font-size: 20px;
 }
 
 .title {
   color: grey;
   font-size: 18px;
-}
-
-.card {
-  width: 100%;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-}
-
-.shortbio {
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 18px;
-  text-align: left;
-}
-
-@media screen and (max-width: 750px) {
-  #navbar {
-    overflow: auto;
-    white-space: nowrap;
-  }
-
-  #navbar a {
-    float: none;
-    display: inline-block;
-  }
-
-  .navbar-right {
-    float: none;
-    display: inline-block;
-  }
 }
