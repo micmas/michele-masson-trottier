@@ -6,7 +6,7 @@ body {
 
 .header {
   background-color: #238ae6;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -57,7 +57,7 @@ body {
   float: right;
 }
 
-img {
+.img-michele {
   border-radius: 50%;
 }
 
