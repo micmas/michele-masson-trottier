@@ -9,14 +9,17 @@
 </head>
 
 <body>
-  <div class="topnav">
+  <div class="topnav" id="myTopnav">
     <a class="active" href="index.html"><i class="fa-solid fa-house-user"></i> Moi</a>
     <a href="clinique.html"><i class="fa-solid fa-building"></i> Clinique</a>
     <a href="projets.html"><i class="fa-solid fa-suitcase"></i> Projets</a>
     <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
   
-  <div class="content">
+  <div class="content" style="padding-left:10px; padding-right: 10px;">
     <img src="img/michele.jpg" width="290px" height="330px" style="margin: 25px; border-radius: 50%;">
     <h1>Michèle Masson-Trottier</h1>
     <p class="title">Orthophoniste, MPO, O(c)</p>
@@ -30,6 +33,17 @@
     <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=z_c_OjsAAAAJ"><i class="fa-solid fa-graduation-cap"></i></a> 
     <p>Vincent Gravel © 2022</p>
   </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
 
 </html>
