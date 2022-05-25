@@ -38,10 +38,6 @@ body {
   text-align: left;
 }
 
-.content img {
-  border-radius: 50%;
-}
-
 .content .title {
   text-align: center;
   color: grey;
