@@ -3,55 +3,10 @@
 
 <PageTitle>Clinique</PageTitle>
 
-<h1>Weather forecast</h1>
+<img src="images/logo.jpg" width="350px" height="200px" style="display: block; margin-left: auto; margin-right: auto;">
 
-<p>This component demonstrates fetching data from the server.</p>
+<h1>Clinique</h1>
 
-@if (forecasts == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+<p>En tant que clinicienne, je valorise une attitude authentique et chaleureuse pour atteindre les objectifs que nous nous fixons. Il est essentielle pour moi que l'on travaille en partenariat pour prioriser ce sur quoi l'on travaille.</p>
 
-@code {
-    private WeatherForecast[]? forecasts;
-
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
-    }
-
-    public class WeatherForecast
-    {
-        public DateTime Date { get; set; }
-
-        public int TemperatureC { get; set; }
-
-        public string? Summary { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
-}
+<p> La pratique basée sur les évidences scientifiques est mise de l'avant dans ma prise en charge, en autant les principes qui favorisent la neuroplasticité, soit la capacité du cerveau à se modifier, que les principes d'apprentissage et de participation sociale.</p>
