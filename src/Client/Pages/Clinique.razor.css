@@ -1,0 +1,11 @@
+.container-text {
+    text-align: center; 
+    max-width: 1250px; 
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-text p {
+    text-align: left;
+}
