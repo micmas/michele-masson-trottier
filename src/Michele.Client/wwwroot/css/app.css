@@ -5,6 +5,11 @@ html, body {
     caret-color: transparent;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1:focus {
     outline: none;
 }
