@@ -1,10 +1,28 @@
 ﻿@page "/"
+@inject NavigationManager Navigation
 
 <PageTitle>Accueil - Orthophonie</PageTitle>
 
-<img src="images/logo.jpg" alt="logo" style="width:80%;">
+<img src="images/logo.jpg" alt="logo" style="width:90%;">
 
 <div class="buttons-container">
-    <button class="btn btn-primary btn-lg left-button">Services orthophonie</button>
-    <button class="btn btn-primary btn-lg right-button">Développement profession</button>
+    <button class="btn btn-primary btn-lg left-button" @onclick="NavigateToCliniqueComponent">
+        Services orthophonie
+    </button>
+
+    <button class="btn btn-primary btn-lg right-button" @onclick="NavigateToRechercheComponent">
+        Développement profession
+    </button>
 </div>
+
+@code {
+    private void NavigateToCliniqueComponent()
+    {
+        Navigation.NavigateTo("/clinique");
+    }
+
+    private void NavigateToRechercheComponent()
+    {
+        Navigation.NavigateTo("/recherche");
+    }
+}

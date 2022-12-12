@@ -7,9 +7,13 @@ img {
 }
 
 button {
-    text-align: center;
     background-color: #8b728f;
-    min-width: 300px;
+    width: 280px;
+}
+
+button:hover, button:active, button:focus {
+    color: #fff;
+    background-color: #6b4773;
 }
 
 .left-button {
@@ -20,15 +24,8 @@ button {
     margin-left: 10px;
 }
 
-.buttons-container {
-    text-align: center;
-    max-width: 1140px; 
-    margin-left: auto;
-    margin-right: auto;
+.buttons-container { 
+    display: flex; 
+    justify-content: center;
     margin-bottom: 40px;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #6b4773;
 }
