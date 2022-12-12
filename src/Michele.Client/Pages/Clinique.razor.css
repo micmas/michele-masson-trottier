@@ -25,11 +25,6 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-.page-heading {
-    color: #3E554F;
-    margin-bottom: 20px;
-}
-
 .text-container {
     text-align: center; 
     max-width: 1140px; 
