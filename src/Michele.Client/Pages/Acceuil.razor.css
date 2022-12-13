@@ -2,13 +2,17 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1140px;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
     margin-bottom: 40px;
 }
 
 button {
     background-color: #8b728f;
-    width: 280px;
+    border-color: #3E554F;
+    margin: 10px;
+    min-width: 280px;
 }
 
 button:hover, button:active, button:focus {
@@ -16,16 +20,9 @@ button:hover, button:active, button:focus {
     background-color: #6b4773;
 }
 
-.left-button {
-    margin-right: 10px;
-}
-
-.right-button {
-    margin-left: 10px;
-}
-
 .buttons-container { 
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 40px;
 }
