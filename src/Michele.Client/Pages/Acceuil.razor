@@ -3,16 +3,18 @@
 
 <PageTitle>Accueil - Orthophonie</PageTitle>
 
-<img src="images/logo.jpg" alt="logo" width="900" height="600">
+<div class="main-container">
+    <img src="images/logo.jpg" alt="logo" width="900" height="600">
 
-<div class="buttons-container">
-    <button class="btn btn-primary btn-lg left-button" @onclick="NavigateToCliniqueComponent">
-        Services orthophonie
-    </button>
+    <div class="buttons-container">
+        <button class="btn btn-primary btn-lg left-button" @onclick="NavigateToCliniqueComponent">
+            Services orthophonie
+        </button>
 
-    <button class="btn btn-primary btn-lg right-button" @onclick="NavigateToRechercheComponent">
-        Développement profession
-    </button>
+        <button class="btn btn-primary btn-lg right-button" @onclick="NavigateToRechercheComponent">
+            Développement profession
+        </button>
+    </div>
 </div>
 
 @code {

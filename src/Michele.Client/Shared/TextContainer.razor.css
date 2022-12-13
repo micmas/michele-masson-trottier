@@ -1,8 +1,9 @@
+h3 {
+    text-align: left;
+}
+
 div {
-    text-align: center; 
-    max-width: 1140px; 
+    text-align: justify;
     font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 40px;
 }
