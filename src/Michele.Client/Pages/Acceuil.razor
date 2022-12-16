@@ -1,5 +1,4 @@
 ﻿@page "/"
-@inject NavigationManager Navigation
 
 <PageTitle>Accueil - Orthophonie</PageTitle>
 
@@ -16,15 +15,3 @@
         </button>
     </div>
 </div>
-
-@code {
-    private void NavigateToCliniqueComponent()
-    {
-        Navigation.NavigateTo("clinique");
-    }
-
-    private void NavigateToRechercheComponent()
-    {
-        Navigation.NavigateTo("recherche");
-    }
-}
