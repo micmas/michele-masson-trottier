@@ -1,0 +1,7 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-grow: 1;
+}

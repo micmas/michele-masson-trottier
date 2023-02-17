@@ -12,21 +12,13 @@ button {
     background-color: #8b728f;
     border-color: #3E554F;
     margin: 10px;
-    width: 280px;
-    min-width: 280px;
+    width: 270px;
+    min-width: 270px;
 }
 
 button:hover, button:active, button:focus {
     color: #fff;
     background-color: #6b4773;
-}
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-grow: 1;
 }
 
 .buttons-container { 
