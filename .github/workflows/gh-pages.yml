@@ -10,15 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Setup .NET Core
+    - name: "Setup .NET"
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '7.0.x'
-    - name: 'Publish with dotnet'
+        dotnet-version: "7.0.x"
+    - name: "Publish"
       run: dotnet publish --configuration Release --output build
-    - name: 'Add .nojekyll file'
-      run: touch build/wwwroot/.nojekyll
-    - name: 'Deploy to Github Pages'
+    - name: "Deploy"
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}

@@ -4,12 +4,15 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GHPages>true</GHPages>
+    <GHPagesBase>/</GHPagesBase>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BlazorWasmPreRendering.Build" Version="2.0.0-preview.8" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.1" PrivateAssets="all" />
+    <PackageReference Include="PublishSPAforGitHubPages.Build" Version="2.0.2" />
   </ItemGroup>
 
   <ItemGroup>
