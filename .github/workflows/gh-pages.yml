@@ -14,10 +14,12 @@ jobs:
       uses: actions/setup-dotnet@v2
       with:
         # Build is broken in latest version.
-        #dotnet-version: '7.0.x'
-        dotnet-version: '7.0.103'
+        dotnet-version: '7.0.x'
+        #dotnet-version: '7.0.103'
     - name: Publish with dotnet
       run: dotnet publish --configuration Release --output build
+    - name: Add .nojekyll file
+      run: touch 'build/wwwroot/.nojekyll'
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
