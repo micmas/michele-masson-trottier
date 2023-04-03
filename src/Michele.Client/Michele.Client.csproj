@@ -15,8 +15,4 @@
     <PackageReference Include="PublishSPAforGitHubPages.Build" Version="2.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Michele.Shared\Michele.Shared.csproj" />
-  </ItemGroup>
-
 </Project>
