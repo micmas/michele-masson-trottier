@@ -12,9 +12,9 @@ img[b-3alveb698o] {
 button[b-3alveb698o] {
     background-color: #8b728f;
     border-color: #3E554F;
-    margin: 10px;
-    width: 270px;
-    min-width: 270px;
+    margin: 20px;
+    width: 250px;
+    min-width: 250px;
 }
 
 button:hover[b-3alveb698o], button:active[b-3alveb698o], button:focus[b-3alveb698o] {
