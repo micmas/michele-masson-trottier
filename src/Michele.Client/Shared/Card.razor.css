@@ -6,9 +6,9 @@ div {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     font-size: 18px;
-    width: 325px;
+    width: 320px;
     height: 200px;
-    margin: 15px;
+    margin: 10px;
 }
 
 div:hover {
