@@ -11,9 +11,9 @@ img {
 button {
     background-color: #8b728f;
     border-color: #3E554F;
-    margin: 10px;
-    width: 270px;
-    min-width: 270px;
+    margin: 20px;
+    width: 250px;
+    min-width: 250px;
 }
 
 button:hover, button:active, button:focus {
