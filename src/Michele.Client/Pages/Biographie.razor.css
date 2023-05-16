@@ -1,4 +1,3 @@
-
 img {
     margin: 25px; 
     border-radius: 50%; 
@@ -15,6 +14,7 @@ h1 {
     text-align: center;
     font-size: 18px;
     color: grey;
+    margin-bottom: 40px;
 }
 
 .text-container {
@@ -23,6 +23,7 @@ h1 {
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 
 .text-container p {
