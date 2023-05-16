@@ -30,7 +30,6 @@ button:hover[b-3alveb698o], button:active[b-3alveb698o], button:focus[b-3alveb69
     margin-bottom: 40px;
 }
 /* /Pages/Biographie.razor.rz.scp.css */
-
 img[b-oqe6bfo1t6] {
     margin: 25px; 
     border-radius: 50%; 
@@ -47,6 +46,7 @@ h1[b-oqe6bfo1t6] {
     text-align: center;
     font-size: 18px;
     color: grey;
+    margin-bottom: 40px;
 }
 
 .text-container[b-oqe6bfo1t6] {
@@ -55,6 +55,7 @@ h1[b-oqe6bfo1t6] {
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 
 .text-container p[b-oqe6bfo1t6] {
