@@ -1,0 +1,35 @@
+img {
+    margin: 25px; 
+    border-radius: 50%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.title {  
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.text-container {
+    text-align: center; 
+    max-width: 1140px; 
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+li {
+    text-align: left;
+}
+
+.text-container p {
+    text-align: justify;
+}
