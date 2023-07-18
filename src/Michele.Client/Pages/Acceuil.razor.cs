@@ -16,4 +16,8 @@ public partial class Acceuil
     {
         Navigation.NavigateTo("recherche");
     }
+    private void NavigateToBiographieComponent()
+    {
+        Navigation.NavigateTo("biographie");
+    }
 }
