@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Michele.Client.dll": "sha256-YyNJco2ebe7VvwthwpVerZNA72A8duwk24qVTJ2xsLU=",
+      "Michele.Client.dll": "sha256-P7XTuP27oxeV8t57xu3YI4A8mJQOAY5CEtQ8ICb2xEY=",
       "Microsoft.AspNetCore.Components.dll": "sha256-nKSptREYe4JMvNMrKSJr7S5YLsmUyFHJaMbTDsG16Ik=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-DV2utlSfbmk5eCmk2ZrF9LHaRiIPH7IPu9KpQSHWaFM=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-I3hivE2GUCLdJhJ9KPcDlOvhCiiPRvVPj+IRM0sgm8o=",
