@@ -7,6 +7,11 @@ public partial class Acceuil
     [Inject]
     private NavigationManager Navigation { get; set; } = default!;
 
+     private void NavigateToBiographieComponent()
+    {
+        Navigation.NavigateTo("biographie");
+    }
+    
     private void NavigateToCliniqueComponent()
     {
         Navigation.NavigateTo("clinique");
@@ -15,9 +20,5 @@ public partial class Acceuil
     private void NavigateToRechercheComponent()
     {
         Navigation.NavigateTo("recherche");
-    }
-    private void NavigateToBiographieComponent()
-    {
-        Navigation.NavigateTo("biographie");
     }
 }
