@@ -26,6 +26,10 @@ h1 {
     margin-bottom: 40px;
 }
 
+li {
+    text-align: left;
+}
+
 .text-container p {
     text-align: justify;
 }
