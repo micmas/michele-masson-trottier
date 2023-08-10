@@ -11,16 +11,7 @@ public partial class Acceuil
     {
         "Michèle Masson-Trottier", "Michèle", "Masson-Trottier", "Orthophoniste"
     };
-
-    private string StructuredData => $@"<script type=""application/ld+json"">
-        {{
-            ""@context"": ""https://schema.org"",
-            ""@type"": ""WebSite"",
-            ""name"": ""{Name}"",
-            ""url"": ""{Navigation.BaseUri}""
-        }}
-    </script>";
-
+    
     [Inject]
     private NavigationManager Navigation { get; set; } = default!;
 
