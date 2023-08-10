@@ -2,16 +2,29 @@
 
 <PageTitle>Acceuil - Orthophonie</PageTitle>
 
+<HeadContent>
+    <meta name="description" content="@Description" />
+    <meta name="keywords" content="@(string.Join(',', Keywords))" />
+    <meta name="thumbnail" content="@(Navigation.BaseUri)assets/images/michele-masson-trottier.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="@Name" />
+    <meta property="og:image" content="@(Navigation.BaseUri)assets/images/michele-orthophoniste-logo.jpg" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="@(Navigation.BaseUri)sitemap.xml" />
+    @(new MarkupString($@"<script type=""application/ld+json"">
+        {{
+            ""@context"": ""https://schema.org"",
+            ""@type"": ""WebSite"",
+            ""name"": ""{Name}"",
+            ""url"": ""{Navigation.BaseUri}""
+        }}
+    </script>"))
+</HeadContent>
+
 <MainContainer>
     <img src="assets/images/michele-orthophoniste-logo.png" alt="Orthophoniste, MPO, O(c)" width="900" height="600" @onclick="NavigateToBiographieComponent">
 
     <div class="buttons-container">
-        <button class="btn btn-primary btn-lg left-button" @onclick="NavigateToRechercheComponent">
-            Volet académique
-        </button>
-
-        <button class="btn btn-primary btn-lg right-button" @onclick="NavigateToCliniqueComponent">
-            Volet clinique
-        </button>
+        <button class="btn btn-primary btn-lg left-button" @onclick="NavigateToRechercheComponent">Volet académique</button>
+        <button class="btn btn-primary btn-lg right-button" @onclick="NavigateToCliniqueComponent">Volet clinique</button>
     </div>
 </MainContainer>
