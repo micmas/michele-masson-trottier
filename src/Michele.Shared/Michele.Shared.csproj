@@ -58,16 +58,25 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Clinique.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Contact.en.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resources\Contact.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Contact.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Recherche.en.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\Recherche.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Recherche.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Videos.en.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resources\Videos.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Videos.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
