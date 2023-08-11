@@ -8,7 +8,7 @@ img {
     margin-bottom: 40px;
 }
 
-button {
+.btn-primary {
     background-color: #8b728f;
     border-color: #3E554F;
     color: #ffffff;
@@ -17,9 +17,15 @@ button {
     min-width: 250px;
 }
 
-button:hover {
+.btn-primary:hover, .btn-primary:active {
     background-color: #6b4773;
     border-color: #6b4773;
+    color: #ffffff;
+}
+
+.btn-primary:focus-visible {
+    background-color: #8b728f;
+    border-color: #3E554F;
     color: #ffffff;
 }
 
@@ -29,10 +35,4 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
-}
-
-.nav-button:active, .nav-button:focus-visible {
-    background-color: #8b728f;
-    border-color: #3E554F;
-    color: #ffffff;
 }
