@@ -11,14 +11,14 @@
     <meta property="og:image" content="@(Navigation.BaseUri)assets/images/michele-orthophoniste-logo.jpg" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="@(Navigation.BaseUri)sitemap.xml" />
     @(new MarkupString($@"
-<script type=""application/ld+json"">
-{{
-    ""@context"": ""https://schema.org"",
-    ""@type"": ""WebSite"",
-    ""name"": ""{Name}"",
-    ""url"": ""{Navigation.BaseUri}""
-}}
-</script>"))
+    <script type=""application/ld+json"">
+        {{
+            ""@context"": ""https://schema.org"",
+            ""@type"": ""WebSite"",
+            ""name"": ""{Name}"",
+            ""url"": ""{Navigation.BaseUri}""
+        }}
+    </script>"))
 </HeadContent>
 
 <MainContainer>
