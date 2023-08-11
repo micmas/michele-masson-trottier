@@ -11,14 +11,16 @@ img {
 button {
     background-color: #8b728f;
     border-color: #3E554F;
+    color: #ffffff;
     margin: 20px;
     width: 250px;
     min-width: 250px;
 }
 
-button:hover, button:active, button:focus {
-    color: #fff;
+button:hover {
     background-color: #6b4773;
+    border-color: #6b4773;
+    color: #ffffff;
 }
 
 .buttons-container { 
@@ -27,4 +29,10 @@ button:hover, button:active, button:focus {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+}
+
+.nav-button:active, .nav-button:focus-visible {
+    background-color: #8b728f;
+    border-color: #3E554F;
+    color: #ffffff;
 }

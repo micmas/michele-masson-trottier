@@ -23,12 +23,6 @@ a, .btn-link {
     color: #0071c1;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
-}
-
 .content {
     padding-top: 1.1rem;
 }
@@ -113,4 +107,33 @@ a, .btn-link {
 
 .bootstrap-select .dropdown-menu li a {
     margin: 0;
+}
+
+.bootstrap-select .dropdown-toggle {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+}
+
+.bootstrap-select .dropdown-toggle:active,
+.bootstrap-select .dropdown-toggle:focus {
+    background-color: #ffffff;
+    color: #000000;
+    outline: none !important;
+    outline-offset: 0;
+}
+
+.bootstrap-select .dropdown-toggle::after {
+    color: #0071c1;
+}
+
+.bootstrap-select .dropdown-item {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.bootstrap-select .dropdown-item:focus,
+.bootstrap-select .dropdown-item:hover {
+    background-color: #8b728f;
+    color: #ffffff;
 }
