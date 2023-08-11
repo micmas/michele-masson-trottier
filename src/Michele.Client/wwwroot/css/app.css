@@ -103,7 +103,6 @@ a, .btn-link {
 
 .bootstrap-select .dropdown-menu {
     padding: 0;
-    --bs-dropdown-link-active-bg: #8b728f;
 }
 
 .bootstrap-select .dropdown-menu li a {
@@ -126,4 +125,15 @@ a, .btn-link {
 
 .bootstrap-select .dropdown-toggle::after {
     color: #0071c1;
+}
+
+.bootstrap-select .dropdown-item {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.bootstrap-select .dropdown-item:focus,
+.bootstrap-select .dropdown-item:hover {
+    background-color: #8b728f;
+    color: #ffffff;
 }
