@@ -9,7 +9,7 @@ img[b-3alveb698o] {
     margin-bottom: 40px;
 }
 
-button[b-3alveb698o] {
+.btn-primary[b-3alveb698o] {
     background-color: #8b728f;
     border-color: #3E554F;
     color: #ffffff;
@@ -18,9 +18,15 @@ button[b-3alveb698o] {
     min-width: 250px;
 }
 
-button:hover[b-3alveb698o] {
+.btn-primary:hover[b-3alveb698o], .btn-primary:active[b-3alveb698o] {
     background-color: #6b4773;
     border-color: #6b4773;
+    color: #ffffff;
+}
+
+.btn-primary:focus-visible[b-3alveb698o] {
+    background-color: #8b728f;
+    border-color: #3E554F;
     color: #ffffff;
 }
 
@@ -30,12 +36,6 @@ button:hover[b-3alveb698o] {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
-}
-
-.nav-button:active[b-3alveb698o], .nav-button:focus-visible[b-3alveb698o] {
-    background-color: #8b728f;
-    border-color: #3E554F;
-    color: #ffffff;
 }
 /* /Pages/Biographie.razor.rz.scp.css */
 img[b-oqe6bfo1t6] {

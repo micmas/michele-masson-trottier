@@ -110,14 +110,14 @@ a, .btn-link {
 }
 
 .bootstrap-select .dropdown-toggle {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     color: #000000;
     border: none;
 }
 
 .bootstrap-select .dropdown-toggle:active,
 .bootstrap-select .dropdown-toggle:focus {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     color: #000000;
     outline: none !important;
     outline-offset: 0;
