@@ -106,3 +106,11 @@ a, .btn-link {
 .loading-progress-text:after {
     content: var(--blazor-load-percentage-text, "Loading");
 }
+
+.bootstrap-select .dropdown-menu {
+    padding: 0;
+}
+
+.bootstrap-select .dropdown-menu li a {
+    margin: 0;
+}
